@@ -7,7 +7,7 @@ app.secret_key = os.getenv('SECRET_KEY', 'default-secret-key')
  
 # Simple user database (in production, use a proper database)
 users = {
-    "admin!": "password123"
+    "adminstaff!": "password12345"
 }
  
 @app.route('/')
